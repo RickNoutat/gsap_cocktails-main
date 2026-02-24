@@ -3,55 +3,56 @@
     <img src="public/readme/hero.png" alt="Project Banner">
   <br />
 
-  <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+![React 19](https://img.shields.io/badge/-React_19-blue?style=for-the-badge&logo=react&logoColor=white)
+![GSAP 3](https://img.shields.io/badge/-GSAP_3-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Tailwind CSS v4](https://img.shields.io/badge/-Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
   <h3 align="center">Mojito Bar — Animated Cocktail Website</h3>
 </div>
 
-## 📋 Table of Contents
+## Table of Contents
 
-1. [Introduction](#introduction)
+1. [About the Project](#about-the-project)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
 4. [Quick Start](#quick-start)
 
-## <a name="introduction"> Introduction</a>
+## About the Project
 
-A visually immersive cocktail bar website built with React, GSAP, and Tailwind CSS. The project focuses on crafting a high-end scroll-driven experience: animated text reveals, parallax effects, pinned sections, scroll-synced video playback, and image masking transitions — all wrapped in a fully responsive layout.
+A passion project I built to push my skills with GSAP and scroll-driven UI design.
 
-The goal was to push creative UI boundaries while keeping the codebase clean and maintainable.
+The concept is a high-end cocktail bar landing page — **Mojito Bar, Paris** — designed to feel cinematic from the first scroll. Every section has a deliberate animation: character-level text reveals, a video that scrubs frame by frame with the scroll wheel, parallax depth on decorative elements, and a fully custom carousel with no third-party slider library.
 
-## <a name="tech-stack"> Tech Stack</a>
+The goal was to build something that looks and feels premium, while keeping the code clean and component-based under the hood.
 
-- **[React](https://react.dev/)** — component-based UI architecture for modular, maintainable code.
+## Tech Stack
 
-- **[GSAP](https://gsap.com/)** — the core animation engine. Used for SplitText reveals, ScrollTrigger timelines, parallax, pinned sections, scroll-synced video, image masking, and a custom carousel.
+- **[React 19](https://react.dev/)** — component architecture with the `useGSAP` hook for animation lifecycle management.
 
-- **[Tailwind CSS](https://tailwindcss.com/)** — utility-first styling for rapid, consistent design across all screen sizes.
+- **[GSAP 3](https://gsap.com/)** — core animation engine. Leverages `ScrollTrigger`, `SplitText`, pinned sections, parallax timelines, scroll-synced video, and image masking transitions.
 
-- **[Vite](https://vitejs.dev/)** — fast build tool with instant HMR, ideal for an animation-heavy project.
+- **[Tailwind CSS v4](https://tailwindcss.com/)** — utility-first styling with custom theme tokens and reusable utility classes for the design system.
 
-## <a name="features"> Features</a>
+- **[Vite](https://vitejs.dev/)** — instant HMR and fast builds, essential when iterating on animation-heavy code.
 
-- **SplitText Animations** — bold character-level text reveals on page load and scroll entry
-- **ScrollTrigger** — scroll-based timelines synced to user position
-- **Parallax Scrolling** — layered depth on leaf and background elements
-- **Pinned Sections** — content locked in view while inner animations play out
-- **Scroll-Synced Video** — video scrubs forward as the user scrolls, frame by frame
-- **Image Masking** — cinematic reveal transitions between sections
-- **Custom Carousel** — fully handcrafted, no library dependency
-- **Responsive Design** — fluid layout and adaptive animations from mobile to desktop
+## Features
 
-## <a name="quick-start"> Quick Start</a>
+- **SplitText Reveals** — character-by-character animated titles with gradient effects on load and scroll entry
+- **Scroll-Synced Video** — the hero video scrubs forward frame by frame as you scroll, no autoplay
+- **Pinned Sections** — content locked in viewport while inner GSAP timelines play out fully
+- **ScrollTrigger Timelines** — every section animates relative to its scroll position
+- **Parallax Depth** — layered leaf and background elements move at independent speeds
+- **Image Masking** — cinematic wipe transitions between sections using CSS clip-path
+- **Custom Carousel** — handbuilt slider with tab navigation and animated slide transitions, zero dependencies
+- **Responsive** — layout and animations adapt cleanly from mobile to desktop
 
-**Prerequisites**
+## Quick Start
+
+### Prerequisites
 
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+- [pnpm](https://pnpm.io/)
 
 **Clone the repo**
 
@@ -63,13 +64,13 @@ cd gsap-cocktails
 **Install dependencies**
 
 ```bash
-npm install
+pnpm install
 ```
 
 **Run locally**
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
