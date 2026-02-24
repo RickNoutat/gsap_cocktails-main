@@ -1,7 +1,5 @@
 # Mojito Bar — Animated Cocktail Website
 
-![Project Banner](public/readme/hero.png)
-
 ![React 19](https://img.shields.io/badge/-React_19-blue?style=for-the-badge&logo=react&logoColor=white)
 ![GSAP 3](https://img.shields.io/badge/-GSAP_3-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/-Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
