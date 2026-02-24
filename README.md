@@ -1,15 +1,11 @@
-<div align="center">
-  <br />
-    <img src="public/readme/hero.png" alt="Project Banner">
-  <br />
+# Mojito Bar — Animated Cocktail Website
+
+![Project Banner](public/readme/hero.png)
 
 ![React 19](https://img.shields.io/badge/-React_19-blue?style=for-the-badge&logo=react&logoColor=white)
 ![GSAP 3](https://img.shields.io/badge/-GSAP_3-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/-Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-  <h3 align="center">Mojito Bar — Animated Cocktail Website</h3>
-</div>
 
 ## Table of Contents
 
@@ -54,20 +50,20 @@ The goal was to build something that looks and feels premium, while keeping the 
 - [Node.js](https://nodejs.org/en)
 - [pnpm](https://pnpm.io/)
 
-**Clone the repo**
+### Clone the repo
 
 ```bash
 git clone https://github.com/rickydavinci/gsap-cocktails.git
 cd gsap-cocktails
 ```
 
-**Install dependencies**
+### Install dependencies
 
 ```bash
 pnpm install
 ```
 
-**Run locally**
+### Run locally
 
 ```bash
 pnpm dev
